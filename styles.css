@@ -10,15 +10,19 @@ body{
     width:600px;
     height: 600px;
     margin: auto;
-    background: linear-gradient(rgb(220, 255, 183),rgb(127, 248, 66));
+    background: linear-gradient(rgb(98, 117, 77),rgb(127, 248, 66));
     border: solid brown 3px;
     display:grid;
     grid-template-rows: repeat(18,1fr);
     grid-template-columns   : repeat(18,1fr);
 }
-.head{
-    background-color: rgb(183, 22, 22);
-}
+
 .food{
-    background-color: blueviolet;
+    background-color: yellow;
+}
+.snake{
+    background-color: purple;
+}
+.head{
+    background-color: red;
 }
